@@ -18,3 +18,8 @@ a {
     text-decoration: none;
     color: blue; /* Optional: change the text color */
 }
+
+.register{
+    color: rgb(168, 20, 20);
+    text-align: center;
+}

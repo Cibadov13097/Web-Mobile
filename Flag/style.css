@@ -1,0 +1,75 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --red: #ef3340;
+  --blue: #00B5E2;
+  --green: #509E2F;
+  --white: #fff;
+}
+
+
+.Azerbaijani_flag {
+  width: 750px;
+  height: 125px;
+  
+
+  border-top: 125px solid var(--blue);
+  background-color: var(--red);
+  border-bottom: 125px solid var(--green);
+ 
+}
+
+
+.crescent {
+  width: 100px;
+  height: 100px;
+  border-radius: 70%;
+  background-color: var(--red);
+  margin: 12px auto;
+  box-shadow: -10px 0 0 7px var(--white);
+}
+
+
+#star {
+  background: none;
+  width: 39px;
+  height: 0;
+  position: relative;
+  top: 35px;
+  left: 65px;
+  border-top: 15px solid var(--white);
+  border-bottom: 15px solid var(--white);
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  transform: rotate(67deg);
+}
+
+#star:before {
+  content: "";
+  background: none;
+  width: 39px;
+  height: 0;
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  border-top: 15px solid var(--white);
+  border-bottom: 15px solid var(--white);
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  transform: rotate(90deg);
+}
+
+
+.circle {
+  width: 39px;
+  height: 39px;
+  border-radius: 50%;
+  background-color: var(--white);
+  position: relative;
+  top: -20px;
+  left: 0;
+}

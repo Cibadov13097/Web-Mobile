@@ -1,4 +1,4 @@
-/* CSS styles for the HTML elements */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #a1d9ddaf;
@@ -16,7 +16,7 @@ p {
 }
 a {
     text-decoration: none;
-    color: blue; /* Optional: change the text color */
+    color: blue; 
 }
 
 .register{
@@ -24,4 +24,20 @@ a {
     text-align: center;
 }
 
+table, th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    
+    
+}
+
+
+tr {
+    border-bottom: 5px solid #62ddf6; 
+}
+
+tr:hover {
+    background-color: #D6EEEE; 
+}
 
